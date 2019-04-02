@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            All Movie data
+        </title>
+        <!-- bootstrap cdn -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+         <link rel="stylesheet" href="style.css">
+       <style>
+          .container
+{
+    height: 120px;
+    
+}
+       </style>
+         </head>
+    <body> 
+            <div class="container jumbotron text-center header">
+                  <form action="/api/" method="GET">
+                       <input type="submit" value="all movies" class="btn btn-primary">    
+                  </form>    
+               
+             </div>
+            
+            <div class="container jumbotron text-center">
+                    <a href="addMovie"><h3>Add Movie</h3></a>
+           </div>
+           <div class="container jumbotron text-center header">
+                <a href="updateMovie"><h3>Update Movie Data</h3></a>
+             </div>
+             <div class="container jumbotron text-center header">
+                    <a href="deleteMovie"><h3>Delete Movie Data</h3></a>
+                 </div>
+    </body>
+</html>
